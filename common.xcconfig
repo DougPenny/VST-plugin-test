@@ -11,12 +11,12 @@ CERTIFICATE_ID = Doug Penny
 COMPILER = com.apple.compilers.llvm.clang.1_0 // or this with xcode4.x/10.7+ (YMMV)
 
 // which osx sdk to compile against - BASE_SDK rather than SDKROOT so we can override other xcconfigs (avid's)
-BASE_SDK = macosx10.5
+BASE_SDK = macosx10.6
 //BASE_SDK = macosx10.6
 //BASE_SDK = macosx10.7 // Plugins with a Carbon GUI do not work with the 10.7 or higher sdks
 
 // the minimum OS to support
-MACOSX_DEPLOYMENT_TARGET = 10.5
+MACOSX_DEPLOYMENT_TARGET = 10.6
 
 // Where the SDKs etc are located in relation to the plugin xcode project
 WDL_PATH = $(SRCROOT)/../../WDL

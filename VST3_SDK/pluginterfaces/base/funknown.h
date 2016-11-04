@@ -149,7 +149,7 @@ if (::Steinberg::FUnknownPrivate::iidEqual (iid, InterfaceIID)) \
 {                                                                                                   \
 	QUERY_INTERFACE (_iid, obj, ::Steinberg::FUnknown::iid, InterfaceName)                           \
 	QUERY_INTERFACE (_iid, obj, ClassIID, InterfaceName)                                             \
-	*obj = nullptr;                                                                                       \
+	*obj = NULL;                                                                                       \
 	return ::Steinberg::kNoInterface;                                                               \
 }
 

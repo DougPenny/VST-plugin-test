@@ -78,7 +78,7 @@ static bool IsMultiLineEditControl(NSView *cv, id fs)
           #if __MAC_OS_X_VERSION_MAX_ALLOWED > 1060
           if ((dest_view=[(id<NSWindowDelegate>)f delegate]) && [dest_view respondsToSelector:@selector(swellIsCarbonHostingView)] && [(SWELL_hwndCarbonHost*)dest_view swellIsCarbonHostingView])
           #else
-          if ((dest_view=[f delegate]) && [dest_view respondsToSelector:@selector(swellIsCarbonHostingView)] && [(SWELL_hwndCarbonHost*)dest_view swellIsCarbonHostingView])
+          //if ((dest_view=[f delegate]) && [dest_view respondsToSelector:@selector(swellIsCarbonHostingView)] && [(SWELL_hwndCarbonHost*)dest_view swellIsCarbonHostingView])
           #endif
           {
             focwnd = [dest_view window]; 

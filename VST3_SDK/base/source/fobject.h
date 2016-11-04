@@ -321,11 +321,11 @@ namespace Singleton {
 #define SINGLETON(ClassName)	\
 	static ClassName* instance (bool create = true) \
 	{ \
-		static Steinberg::FObject* inst = nullptr; \
-		if (inst == nullptr && create && Steinberg::Singleton::isTerminated () == false) \
+		static Steinberg::FObject* inst = NULL; \
+		if (inst == NULL && create && Steinberg::Singleton::isTerminated () == false) \
 		{	\
 			Steinberg::Singleton::lockRegister (); \
-			if (inst == nullptr) \
+			if (inst == NULL) \
 			{ \
 				inst = NEW ClassName; \
 				Steinberg::Singleton::registerInstance (&inst); \
