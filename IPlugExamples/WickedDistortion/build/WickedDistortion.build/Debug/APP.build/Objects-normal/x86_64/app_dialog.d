@@ -1,0 +1,36 @@
+dependencies: \
+  /Users/dpenny/Documents/workspace/VST-plugin-test/IPlugExamples/WickedDistortion/app_wrapper/app_dialog.cpp \
+  /Users/dpenny/Documents/workspace/VST-plugin-test/IPlugExamples/WickedDistortion/app_wrapper/app_main.h \
+  /Users/dpenny/Documents/workspace/VST-plugin-test/IPlugExamples/WickedDistortion/../../WDL/IPlug/IPlugOSDetect.h \
+  /Users/dpenny/Documents/workspace/VST-plugin-test/IPlugExamples/WickedDistortion/../../WDL/swell/swell.h \
+  /Users/dpenny/Documents/workspace/VST-plugin-test/IPlugExamples/WickedDistortion/../../WDL/swell/swell-types.h \
+  /Users/dpenny/Documents/workspace/VST-plugin-test/IPlugExamples/WickedDistortion/../../WDL/swell/swell-functions.h \
+  /Users/dpenny/Documents/workspace/VST-plugin-test/IPlugExamples/WickedDistortion/../../WDL/wdltypes.h \
+  /Users/dpenny/Documents/workspace/VST-plugin-test/IPlugExamples/WickedDistortion/../../WDL/rtaudiomidi/RtAudio.h \
+  /Users/dpenny/Documents/workspace/VST-plugin-test/IPlugExamples/WickedDistortion/../../WDL/rtaudiomidi/RtError.h \
+  /Users/dpenny/Documents/workspace/VST-plugin-test/IPlugExamples/WickedDistortion/../../WDL/rtaudiomidi/RtMidi.h \
+  /Users/dpenny/Documents/workspace/VST-plugin-test/IPlugExamples/WickedDistortion/app_wrapper/../WickedDistortion.h \
+  /Users/dpenny/Documents/workspace/VST-plugin-test/IPlugExamples/WickedDistortion/../../WDL/IPlug/IPlug_include_in_plug_hdr.h \
+  /Users/dpenny/Documents/workspace/VST-plugin-test/IPlugExamples/WickedDistortion/resource.h \
+  /Users/dpenny/Documents/workspace/VST-plugin-test/IPlugExamples/WickedDistortion/app_wrapper/../app_wrapper/app_resource.h \
+  /Users/dpenny/Documents/workspace/VST-plugin-test/IPlugExamples/WickedDistortion/../../WDL/IPlug/IPlugStandalone.h \
+  /Users/dpenny/Documents/workspace/VST-plugin-test/IPlugExamples/WickedDistortion/../../WDL/IPlug/IPlugBase.h \
+  /Users/dpenny/Documents/workspace/VST-plugin-test/IPlugExamples/WickedDistortion/../../WDL/IPlug/Containers.h \
+  /Users/dpenny/Documents/workspace/VST-plugin-test/IPlugExamples/WickedDistortion/../../WDL/IPlug/../mutex.h \
+  /Users/dpenny/Documents/workspace/VST-plugin-test/IPlugExamples/WickedDistortion/../../WDL/IPlug/../wdlstring.h \
+  /Users/dpenny/Documents/workspace/VST-plugin-test/IPlugExamples/WickedDistortion/../../WDL/heapbuf.h \
+  /Users/dpenny/Documents/workspace/VST-plugin-test/IPlugExamples/WickedDistortion/../../WDL/wdlstring.h \
+  /Users/dpenny/Documents/workspace/VST-plugin-test/IPlugExamples/WickedDistortion/../../WDL/IPlug/../ptrlist.h \
+  /Users/dpenny/Documents/workspace/VST-plugin-test/IPlugExamples/WickedDistortion/../../WDL/IPlug/../wdlendian.h \
+  /Users/dpenny/Documents/workspace/VST-plugin-test/IPlugExamples/WickedDistortion/../../WDL/IPlug/IPlugStructs.h \
+  /Users/dpenny/Documents/workspace/VST-plugin-test/IPlugExamples/WickedDistortion/../../WDL/IPlug/../swell/swell.h \
+  /Users/dpenny/Documents/workspace/VST-plugin-test/IPlugExamples/WickedDistortion/../../WDL/IPlug/../lice/lice_text.h \
+  /Users/dpenny/Documents/workspace/VST-plugin-test/IPlugExamples/WickedDistortion/../../WDL/IPlug/../lice/lice.h \
+  /Users/dpenny/Documents/workspace/VST-plugin-test/IPlugExamples/WickedDistortion/../../WDL/IPlug/IParam.h \
+  /Users/dpenny/Documents/workspace/VST-plugin-test/IPlugExamples/WickedDistortion/../../WDL/IPlug/Hosts.h \
+  /Users/dpenny/Documents/workspace/VST-plugin-test/IPlugExamples/WickedDistortion/../../WDL/IPlug/Log.h \
+  /Users/dpenny/Documents/workspace/VST-plugin-test/IPlugExamples/WickedDistortion/../../WDL/IPlug/NChanDelay.h \
+  /Users/dpenny/Documents/workspace/VST-plugin-test/IPlugExamples/WickedDistortion/../../WDL/IPlug/IGraphicsMac.h \
+  /Users/dpenny/Documents/workspace/VST-plugin-test/IPlugExamples/WickedDistortion/../../WDL/IPlug/IGraphics.h \
+  /Users/dpenny/Documents/workspace/VST-plugin-test/IPlugExamples/WickedDistortion/../../WDL/IPlug/IPopupMenu.h \
+  /Users/dpenny/Documents/workspace/VST-plugin-test/IPlugExamples/WickedDistortion/../../WDL/IPlug/IControl.h

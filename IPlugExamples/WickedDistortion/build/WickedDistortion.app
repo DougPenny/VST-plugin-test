@@ -1,0 +1,1 @@
+/Applications/WickedDistortion.app

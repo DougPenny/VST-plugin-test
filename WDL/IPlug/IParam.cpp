@@ -37,7 +37,7 @@ void IParam::InitInt(const char* name, int defaultVal, int minVal, int maxVal, c
 
 void IParam::InitDouble(const char* name, double defaultVal, double minVal, double maxVal, double step, const char* label, const char* group)
 {
-  if (mType == kTypeNone) mType = kTypeDouble;
+  mType = kTypeDouble;
   
   strcpy(mName, name);
   strcpy(mLabel, label);

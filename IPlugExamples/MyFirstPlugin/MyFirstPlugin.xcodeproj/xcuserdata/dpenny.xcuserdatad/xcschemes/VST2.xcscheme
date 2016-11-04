@@ -51,6 +51,12 @@
             ReferencedContainer = "container:MyFirstPlugin.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
+      <CommandLineArguments>
+         <CommandLineArgument
+            argument = "/Users/dpenny/Documents/workspace/VST-plugin-test/IPlugExamples/MyFirstPlugin/reaper_test_project.RPP"
+            isEnabled = "YES">
+         </CommandLineArgument>
+      </CommandLineArguments>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
