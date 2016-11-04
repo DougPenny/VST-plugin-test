@@ -1,0 +1,19 @@
+-x
+c++
+-arch
+x86_64
+-gmodules
+-fpascal-strings
+-O0
+-D_DEBUG
+-D_DEBUG=1
+-isysroot
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.5.sdk
+-fasm-blocks
+-mmacosx-version-min=10.5
+-g
+-fvisibility-inlines-hidden
+x86_64-apple-darwin15.6.0
+"4.2.1 Compatible Apple LLVM 8.0.0 (clang-800.0.42.1)"
+SDK_PRODUCT_BUILD_VERSION=9L31a
+9L31a

@@ -3,12 +3,12 @@
 // along with some other global build variables
 
 // this is used for Developer ID / Appstore code-signing and is used in the makedist-mac shell script
-CERTIFICATE_ID = Oliver Larkin
+CERTIFICATE_ID = Doug Penny
 
 // Which compiler to use
-COMPILER = com.apple.compilers.gcc.4_2 // use this with xcode3
+//COMPILER = com.apple.compilers.gcc.4_2 // use this with xcode3
 //COMPILER = com.apple.compilers.llvmgcc42 // use this 
-//COMPILER = com.apple.compilers.llvm.clang.1_0 // or this with xcode4.x/10.7+ (YMMV)
+COMPILER = com.apple.compilers.llvm.clang.1_0 // or this with xcode4.x/10.7+ (YMMV)
 
 // which osx sdk to compile against - BASE_SDK rather than SDKROOT so we can override other xcconfigs (avid's)
 BASE_SDK = macosx10.5
@@ -36,9 +36,12 @@ GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES
 // you can also build to the user plugin folder, but the installer scripts assume that the binarys are in the system folder
 // RTAS and AAX folders should be the location of the PT Dev build plug-ins folders
 
-VST_FOLDER = /Library/Audio/Plug-Ins/VST
-VST3_FOLDER = /Library/Audio/Plug-Ins/VST3
-AU_FOLDER = /Library/Audio/Plug-Ins/Components
+VST3_FOLDER = ~/Library/Audio/Plug-Ins/VST3
+VST_FOLDER = ~/Library/Audio/Plug-Ins/VST
+AU_FOLDER = ~/Library/Audio/Plug-Ins/Components
+//VST_FOLDER = /Library/Audio/Plug-Ins/VST
+//VST3_FOLDER = /Library/Audio/Plug-Ins/VST3
+//AU_FOLDER = /Library/Audio/Plug-Ins/Components
 RTAS_FOLDER = /Applications/Avid/ProTools_3PDev/Plug-Ins
 AAX_FOLDER = /Applications/Avid/ProTools_3PDev/Plug-Ins
 APP_FOLDER = /Applications
